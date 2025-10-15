@@ -1,0 +1,342 @@
+=== lavaan.mi summary (pooled across imputations) ===
+lavaan.mi object fit to 20 imputed data sets using:
+ - lavaan    (0.6-19)
+ - lavaan.mi (0.1-0)
+See class?lavaan.mi help page for available methods. 
+
+Convergence information:
+The model converged on 20 imputed data sets.
+Standard errors were available for all imputations.
+
+  Estimator                                       DWLS
+  Optimization method                           NLMINB
+  Number of model parameters                       235
+
+  Number of observations                          7350
+
+Model Test User Model:
+
+                                                Standard      Scaled
+  Test statistic                               21938.402   21558.274
+  Degrees of freedom                                 939         939
+  P-value                                          0.000       0.000
+  Average scaling correction factor                            1.035
+  Average shift parameter                                    371.390
+    simple second-order correction                                  
+  Pooling method                                      D2            
+    Pooled statistic                          “standard”            
+    “scaled.shifted” correction applied            AFTER     pooling
+
+Parameter Estimates:
+
+  Parameterization                               Delta
+  Standard errors                                  Robust.sem
+  Information                                        Expected
+  Information saturated (h1) model               Unstructured
+                                                             
+  Pooled across imputations              Rubin's (1987) rules
+  Augment within-imputation variance     Scale by average RIV
+  Wald test for pooled parameters          t(df) distribution
+
+  Pooled t statistics with df >= 1000 are displayed with
+  df = Inf(inity) to save space. Although the t distribution
+  with large df closely approximates a standard normal
+  distribution, exact df for reporting these t tests can be
+  obtained from parameterEstimates.mi() 
+
+
+Latent Variables:
+                                Estimate  Std.Err  t-value       df  P(>|t|)
+  Internalizing =~                                                          
+    Worry_Frequncy                 0.567    0.012   46.317      Inf    0.000
+    Nrvs_Frq_30_Dy                 0.736    0.007  102.705      Inf    0.000
+    Rstlss_Fr_30_D                 0.726    0.008   96.793      Inf    0.000
+    Afrd_Frq_30_Dy                 0.767    0.008   90.534      Inf    0.000
+    Frstrtd_F_30_D                 0.824    0.005  164.682      Inf    0.000
+    Upst_Frq_30_Dy                 0.828    0.005  172.997      Inf    0.000
+    Hopeless_Freq                  0.897    0.006  156.575      Inf    0.000
+    Evrythng_Effrt                 0.746    0.008   96.856      Inf    0.000
+    Worthless_Freq                 0.903    0.006  146.647      Inf    0.000
+    Irritable_Freq                 0.760    0.006  120.994  200.636    0.000
+    Ashamed_Freq                   0.784    0.009   84.196      Inf    0.000
+    Lonely_Freqncy                 0.753    0.008   95.244      Inf    0.000
+    Angry_Freq                     0.805    0.005  153.898      Inf    0.000
+  Anatagonistic =~                                                          
+    People_Mean                    0.640    0.012   52.607      Inf    0.000
+    Upset_Think_Dy                 0.748    0.009   84.796      Inf    0.000
+    Mnr_Stbck_Irrt                 0.742    0.008   88.526      Inf    0.000
+    Mood_Up_Down                   0.802    0.009   92.710      Inf    0.000
+    Angry_Ready_Ht                 0.601    0.013   46.247      Inf    0.000
+    Enjy_Hrtng_S_M                 0.594    0.016   37.486      Inf    0.000
+    Whn_Inslt_Gt_E                 0.454    0.013   35.227      Inf    0.000
+    Smtms_Jst_Ht_S                 0.634    0.015   43.021      Inf    0.000
+    More_Sucessful                 0.543    0.012   45.012      Inf    0.000
+  Detachment =~                                                             
+    Others_More_Lf                 0.777    0.006  128.243      Inf    0.000
+    Dispnt_Achvmnt                 0.715    0.007  100.745      Inf    0.000
+    Gave_Up                        0.699    0.008   89.324      Inf    0.000
+    No_Good_Sense                  0.790    0.006  122.754      Inf    0.000
+    Difficlt_Arrng                 0.783    0.006  127.377      Inf    0.000
+    Mntnng_Rltns_H                 0.677    0.008   88.481      Inf    0.000
+    Dont_Ft_Cmmnty                 0.621    0.009   72.358      Inf    0.000
+    Few_Clos_Frnds                 0.762    0.007  116.313      Inf    0.000
+    No_Wrm_Rltnshp                 0.712    0.007   95.115      Inf    0.000
+    Activitis_Trvl                 0.667    0.008   85.117      Inf    0.000
+    Self_Attitude                  0.733    0.007  107.727      Inf    0.000
+  Disinhibited_Externalizing =~                                             
+    Actvly_Crry_Pl                 0.760    0.009   82.915      Inf    0.000
+    Lk_Dffclt_Thng                 0.477    0.012   41.021      Inf    0.000
+    Like_Hard_Work                 0.497    0.012   40.612      Inf    0.000
+    High_Standards                 0.518    0.013   40.858      Inf    0.000
+    Plan_Future                    0.675    0.010   69.119      Inf    0.000
+    Will                           0.607    0.011   56.681      Inf    0.000
+    Change_Fr_Bttr                 0.734    0.009   77.408      Inf    0.000
+    Too_Much_Gt_Dn                 0.561    0.011   49.613      Inf    0.000
+    Dont_Give_Up                   0.602    0.010   59.264      Inf    0.000
+    Know_Want_Life                 0.785    0.009   91.968      Inf    0.000
+    Goal_Kep_Bnfts                 0.547    0.011   50.287      Inf    0.000
+    Weigh_Possblts                 0.474    0.014   34.369      Inf    0.000
+
+Covariances:
+                   Estimate  Std.Err  t-value       df  P(>|t|)
+  Internalizing ~~                                             
+    Anatagonistic     0.631    0.009   69.466      Inf    0.000
+    Detachment        0.611    0.009   69.983      Inf    0.000
+    Dsnhbtd_Extrnl   -0.332    0.012  -27.330      Inf    0.000
+  Anatagonistic ~~                                             
+    Detachment        0.671    0.008   82.150      Inf    0.000
+    Dsnhbtd_Extrnl   -0.357    0.012  -29.091      Inf    0.000
+  Detachment ~~                                                
+    Dsnhbtd_Extrnl   -0.600    0.009  -69.697      Inf    0.000
+
+Thresholds:
+                   Estimate  Std.Err  t-value       df  P(>|t|)
+    Wrry_Frqncy|t1    0.497    0.016   32.043      Inf    0.000
+    Wrry_Frqncy|t2    0.852    0.017   50.246      Inf    0.000
+    Wrry_Frqncy|t3    1.256    0.020   62.915      Inf    0.000
+    Wrry_Frqncy|t4    1.506    0.023   65.805      Inf    0.000
+    Nrvs_Fr_30_D|1   -0.120    0.015   -8.052      Inf    0.000
+    Nrvs_Fr_30_D|2    0.871    0.017   51.052      Inf    0.000
+    Nrvs_Fr_30_D|3    1.753    0.027   65.067      Inf    0.000
+    Nrvs_Fr_30_D|4    2.387    0.047   50.798      Inf    0.000
+    Rstls_F_30_D|1   -0.039    0.015   -2.650      Inf    0.008
+    Rstls_F_30_D|2    0.854    0.017   50.318      Inf    0.000
+    Rstls_F_30_D|3    1.689    0.026   65.578      Inf    0.000
+    Rstls_F_30_D|4    2.316    0.044   52.992      Inf    0.000
+    Afrd_Fr_30_D|1    0.691    0.016   42.672      Inf    0.000
+    Afrd_Fr_30_D|2    1.419    0.022   65.230      Inf    0.000
+    Afrd_Fr_30_D|3    2.026    0.033   60.668      Inf    0.000
+    Afrd_Fr_30_D|4    2.536    0.055   45.980      Inf    0.000
+    Frstr_F_30_D|1   -0.600    0.016  -37.912      Inf    0.000
+    Frstr_F_30_D|2    0.533    0.016   34.157      Inf    0.000
+    Frstr_F_30_D|3    1.516    0.023   65.842      Inf    0.000
+    Frstr_F_30_D|4    2.131    0.037   58.178      Inf    0.000
+    Upst_Fr_30_D|1   -0.371    0.015  -24.428      Inf    0.000
+    Upst_Fr_30_D|2    0.711    0.016   43.712      Inf    0.000
+    Upst_Fr_30_D|3    1.742    0.027   65.172      Inf    0.000
+    Upst_Fr_30_D|4    2.312    0.044   53.129      Inf    0.000
+    Hopelss_Frq|t1    0.836    0.017   49.540      Inf    0.000
+    Hopelss_Frq|t2    1.378    0.021   64.801      Inf    0.000
+    Hopelss_Frq|t3    1.938    0.031   62.434      Inf    0.000
+    Hopelss_Frq|t4    2.448    0.050   48.865      Inf    0.000
+    Evrythng_Eff|1    0.163    0.015   10.958      Inf    0.000
+    Evrythng_Eff|2    0.895    0.017   52.025      Inf    0.000
+    Evrythng_Eff|3    1.505    0.023   65.801      Inf    0.000
+    Evrythng_Eff|4    2.040    0.034   60.352      Inf    0.000
+    Wrthlss_Frq|t1    0.872    0.017   51.082      Inf    0.000
+    Wrthlss_Frq|t2    1.392    0.021   64.960      Inf    0.000
+    Wrthlss_Frq|t3    1.941    0.031   62.381      Inf    0.000
+    Wrthlss_Frq|t4    2.427    0.049   49.532      Inf    0.000
+    Irritbl_Frq|t1   -0.316    0.015  -20.908  162.381    0.000
+    Irritbl_Frq|t2    0.759    0.016   46.057  172.605    0.000
+    Irritbl_Frq|t3    1.678    0.026   65.633  175.688    0.000
+    Irritbl_Frq|t4    2.324    0.044   52.759      Inf    0.000
+    Ashamed_Frq|t1    0.878    0.017   51.352      Inf    0.000
+    Ashamed_Frq|t2    1.524    0.023   65.868      Inf    0.000
+    Ashamed_Frq|t3    2.146    0.037   57.793      Inf    0.000
+    Ashamed_Frq|t4    2.511    0.054   46.798      Inf    0.000
+    Lnly_Frqncy|t1    0.351    0.015   23.154      Inf    0.000
+    Lnly_Frqncy|t2    1.028    0.018   56.931      Inf    0.000
+    Lnly_Frqncy|t3    1.680    0.026   65.632      Inf    0.000
+    Lnly_Frqncy|t4    2.223    0.040   55.699      Inf    0.000
+    Angry_Freq|t1    -0.333    0.015  -22.033      Inf    0.000
+    Angry_Freq|t2     0.801    0.017   47.988      Inf    0.000
+    Angry_Freq|t3     1.823    0.028   64.259      Inf    0.000
+    Angry_Freq|t4     2.349    0.045   51.975      Inf    0.000
+    People_Mean|t1    0.366    0.015   24.081      Inf    0.000
+    People_Mean|t2    1.237    0.020   62.524      Inf    0.000
+    People_Mean|t3    2.013    0.033   60.948      Inf    0.000
+    Upst_Thnk_Dy|1   -0.324    0.015  -21.425      Inf    0.000
+    Upst_Thnk_Dy|2    0.458    0.015   29.762      Inf    0.000
+    Upst_Thnk_Dy|3    1.631    0.025   65.853      Inf    0.000
+    Mnr_Stbck_Ir|1   -0.624    0.016  -39.214      Inf    0.000
+    Mnr_Stbck_Ir|2    0.149    0.015    9.998      Inf    0.000
+    Mnr_Stbck_Ir|3    1.422    0.022   65.260      Inf    0.000
+    Mood_Up_Dwn|t1   -0.391    0.015  -25.668      Inf    0.000
+    Mood_Up_Dwn|t2    0.414    0.015   27.063      Inf    0.000
+    Mood_Up_Dwn|t3    1.388    0.021   64.917      Inf    0.000
+    Angry_Rdy_Ht|1    0.579    0.016   36.725      Inf    0.000
+    Angry_Rdy_Ht|2    1.285    0.020   63.444      Inf    0.000
+    Angry_Rdy_Ht|3    1.985    0.032   61.538      Inf    0.000
+    Enjy_Hrt_S_M|1    0.953    0.018   54.292      Inf    0.000
+    Enjy_Hrt_S_M|2    1.636    0.025   65.839      Inf    0.000
+    Enjy_Hrt_S_M|3    2.425    0.049   49.592      Inf    0.000
+    Whn_Insl_G_E|1   -0.015    0.015   -0.990      Inf    0.322
+    Whn_Insl_G_E|2    0.883    0.017   51.542      Inf    0.000
+    Whn_Insl_G_E|3    1.923    0.031   62.718      Inf    0.000
+    Smtms_Js_H_S|1    1.001    0.018   56.023      Inf    0.000
+    Smtms_Js_H_S|2    1.591    0.024   65.936      Inf    0.000
+    Smtms_Js_H_S|3    2.154    0.037   57.577      Inf    0.000
+    More_Scssfl|t1   -0.057    0.015   -3.870      Inf    0.000
+    More_Scssfl|t2    0.857    0.017   50.471      Inf    0.000
+    More_Scssfl|t3    1.685    0.026   65.606      Inf    0.000
+    Othrs_Mr_Lf|t1   -0.364    0.015  -23.960      Inf    0.000
+    Othrs_Mr_Lf|t2    0.150    0.015   10.093      Inf    0.000
+    Othrs_Mr_Lf|t3    0.347    0.015   22.914      Inf    0.000
+    Othrs_Mr_Lf|t4    0.754    0.016   45.790      Inf    0.000
+    Othrs_Mr_Lf|t5    1.213    0.020   62.034      Inf    0.000
+    Othrs_Mr_Lf|t6    1.828    0.028   64.192      Inf    0.000
+    Dspnt_Achvmn|1   -0.474    0.015  -30.705      Inf    0.000
+    Dspnt_Achvmn|2    0.049    0.015    3.329      Inf    0.001
+    Dspnt_Achvmn|3    0.248    0.015   16.571      Inf    0.000
+    Dspnt_Achvmn|4    0.453    0.015   29.436      Inf    0.000
+    Dspnt_Achvmn|5    0.927    0.017   53.300      Inf    0.000
+    Dspnt_Achvmn|6    1.669    0.025   65.695      Inf    0.000
+    Gave_Up|t1       -0.162    0.015  -10.880      Inf    0.000
+    Gave_Up|t2        0.364    0.015   23.948      Inf    0.000
+    Gave_Up|t3        0.614    0.016   38.649      Inf    0.000
+    Gave_Up|t4        0.989    0.018   55.591      Inf    0.000
+    Gave_Up|t5        1.390    0.021   64.932      Inf    0.000
+    Gave_Up|t6        1.953    0.031   62.160      Inf    0.000
+    No_Good_Sns|t1   -0.224    0.015  -14.969      Inf    0.000
+    No_Good_Sns|t2    0.335    0.015   22.159      Inf    0.000
+    No_Good_Sns|t3    0.553    0.016   35.249      Inf    0.000
+    No_Good_Sns|t4    0.901    0.017   52.270      Inf    0.000
+    No_Good_Sns|t5    1.369    0.021   64.687      Inf    0.000
+    No_Good_Sns|t6    1.912    0.030   62.898      Inf    0.000
+    Dffclt_Arrng|1   -0.563    0.016  -35.844      Inf    0.000
+    Dffclt_Arrng|2    0.020    0.015    1.381      Inf    0.167
+    Dffclt_Arrng|3    0.243    0.015   16.204      Inf    0.000
+    Dffclt_Arrng|4    0.583    0.016   36.950      Inf    0.000
+    Dffclt_Arrng|5    1.142    0.019   60.314      Inf    0.000
+    Dffclt_Arrng|6    1.825    0.028   64.236      Inf    0.000
+    Mntnng_Rlt_H|1   -0.392    0.015  -25.734      Inf    0.000
+    Mntnng_Rlt_H|2    0.135    0.015    9.075      Inf    0.000
+    Mntnng_Rlt_H|3    0.320    0.015   21.205      Inf    0.000
+    Mntnng_Rlt_H|4    0.608    0.016   38.339      Inf    0.000
+    Mntnng_Rlt_H|5    1.085    0.018   58.711      Inf    0.000
+    Mntnng_Rlt_H|6    1.691    0.026   65.565      Inf    0.000
+    Dnt_Ft_Cmmnt|1   -0.293    0.015  -19.437      Inf    0.000
+    Dnt_Ft_Cmmnt|2    0.325    0.015   21.505      Inf    0.000
+    Dnt_Ft_Cmmnt|3    0.555    0.016   35.407      Inf    0.000
+    Dnt_Ft_Cmmnt|4    0.981    0.018   55.307      Inf    0.000
+    Dnt_Ft_Cmmnt|5    1.407    0.022   65.111      Inf    0.000
+    Dnt_Ft_Cmmnt|6    1.985    0.032   61.533      Inf    0.000
+    Fw_Cls_Frnds|1   -0.198    0.015  -13.245      Inf    0.000
+    Fw_Cls_Frnds|2    0.251    0.015   16.731      Inf    0.000
+    Fw_Cls_Frnds|3    0.449    0.015   29.208      Inf    0.000
+    Fw_Cls_Frnds|4    0.714    0.016   43.860      Inf    0.000
+    Fw_Cls_Frnds|5    1.200    0.019   61.733      Inf    0.000
+    Fw_Cls_Frnds|6    1.725    0.026   65.317      Inf    0.000
+    N_Wrm_Rltnsh|1   -0.139    0.015   -9.357      Inf    0.000
+    N_Wrm_Rltnsh|2    0.354    0.015   23.343      Inf    0.000
+    N_Wrm_Rltnsh|3    0.570    0.016   36.207      Inf    0.000
+    N_Wrm_Rltnsh|4    0.797    0.017   47.825      Inf    0.000
+    N_Wrm_Rltnsh|5    1.175    0.019   61.150      Inf    0.000
+    N_Wrm_Rltnsh|6    1.694    0.026   65.547      Inf    0.000
+    Actvts_Trvl|t1   -0.491    0.015  -31.682      Inf    0.000
+    Actvts_Trvl|t2    0.131    0.015    8.804      Inf    0.000
+    Actvts_Trvl|t3    0.367    0.015   24.166      Inf    0.000
+    Actvts_Trvl|t4    0.707    0.016   43.476      Inf    0.000
+    Actvts_Trvl|t5    1.225    0.020   62.287      Inf    0.000
+    Actvts_Trvl|t6    1.907    0.030   62.988      Inf    0.000
+    Self_Attitd|t1   -0.575    0.016  -36.481      Inf    0.000
+    Self_Attitd|t2   -0.009    0.015   -0.629      Inf    0.529
+    Self_Attitd|t3    0.169    0.015   11.325      Inf    0.000
+    Self_Attitd|t4    0.519    0.016   33.331      Inf    0.000
+    Self_Attitd|t5    0.935    0.017   53.606      Inf    0.000
+    Self_Attitd|t6    1.632    0.025   65.852      Inf    0.000
+    Actvly_Crr_P|1   -2.069    0.035  -59.690      Inf    0.000
+    Actvly_Crr_P|2   -1.559    0.024  -65.936      Inf    0.000
+    Actvly_Crr_P|3   -1.202    0.019  -61.772      Inf    0.000
+    Actvly_Crr_P|4   -0.827    0.017  -49.160      Inf    0.000
+    Actvly_Crr_P|5   -0.363    0.015  -23.878      Inf    0.000
+    Actvly_Crr_P|6    0.487    0.015   31.433      Inf    0.000
+    Lk_Dffclt_Th|1   -1.489    0.023  -65.730      Inf    0.000
+    Lk_Dffclt_Th|2   -0.534    0.016  -34.191      Inf    0.000
+    Lk_Dffclt_Th|3    0.832    0.017   49.375      Inf    0.000
+    Lik_Hrd_Wrk|t1   -1.687    0.026  -65.591      Inf    0.000
+    Lik_Hrd_Wrk|t2   -0.860    0.017  -50.590      Inf    0.000
+    Lik_Hrd_Wrk|t3    0.391    0.015   25.627      Inf    0.000
+    Hgh_Stndrds|t1   -1.886    0.030  -63.335      Inf    0.000
+    Hgh_Stndrds|t2   -1.298    0.020  -63.665      Inf    0.000
+    Hgh_Stndrds|t3    0.016    0.015    1.110      Inf    0.267
+    Plan_Future|t1   -1.799    0.028  -64.564      Inf    0.000
+    Plan_Future|t2   -0.801    0.017  -47.976      Inf    0.000
+    Plan_Future|t3    0.244    0.015   16.312      Inf    0.000
+    Will|t1          -1.945    0.031  -62.310      Inf    0.000
+    Will|t2          -0.977    0.018  -55.186      Inf    0.000
+    Will|t3           0.211    0.015   14.148      Inf    0.000
+ [ reached getOption("max.print") -- omitted 18 rows ]
+
+Variances:
+                   Estimate  Std.Err  t-value       df  P(>|t|)
+   .Worry_Frequncy    0.679                                    
+   .Nrvs_Frq_30_Dy    0.458                                    
+   .Rstlss_Fr_30_D    0.472                                    
+   .Afrd_Frq_30_Dy    0.412                                    
+   .Frstrtd_F_30_D    0.321                                    
+   .Upst_Frq_30_Dy    0.314                                    
+   .Hopeless_Freq     0.196                                    
+   .Evrythng_Effrt    0.444                                    
+   .Worthless_Freq    0.184                                    
+   .Irritable_Freq    0.422                                    
+   .Ashamed_Freq      0.385                                    
+   .Lonely_Freqncy    0.433                                    
+   .Angry_Freq        0.352                                    
+   .People_Mean       0.590                                    
+   .Upset_Think_Dy    0.441                                    
+   .Mnr_Stbck_Irrt    0.449                                    
+   .Mood_Up_Down      0.356                                    
+   .Angry_Ready_Ht    0.639                                    
+   .Enjy_Hrtng_S_M    0.647                                    
+   .Whn_Inslt_Gt_E    0.794                                    
+   .Smtms_Jst_Ht_S    0.598                                    
+   .More_Sucessful    0.705                                    
+   .Others_More_Lf    0.396                                    
+   .Dispnt_Achvmnt    0.489                                    
+   .Gave_Up           0.511                                    
+   .No_Good_Sense     0.376                                    
+   .Difficlt_Arrng    0.387                                    
+   .Mntnng_Rltns_H    0.542                                    
+   .Dont_Ft_Cmmnty    0.614                                    
+   .Few_Clos_Frnds    0.420                                    
+   .No_Wrm_Rltnshp    0.493                                    
+   .Activitis_Trvl    0.555                                    
+   .Self_Attitude     0.463                                    
+   .Actvly_Crry_Pl    0.422                                    
+   .Lk_Dffclt_Thng    0.772                                    
+   .Like_Hard_Work    0.753                                    
+   .High_Standards    0.732                                    
+   .Plan_Future       0.545                                    
+   .Will              0.632                                    
+   .Change_Fr_Bttr    0.461                                    
+   .Too_Much_Gt_Dn    0.685                                    
+   .Dont_Give_Up      0.637                                    
+   .Know_Want_Life    0.384                                    
+   .Goal_Kep_Bnfts    0.700                                    
+   .Weigh_Possblts    0.775                                    
+    Internalizing     1.000                                    
+    Anatagonistic     1.000                                    
+    Detachment        1.000                                    
+    Dsnhbtd_Extrnl    1.000                                    
+
+
+=== Scaled/robust fit measures for WLSMV ===
+
+Test statistic(s) pooled using the D2 pooling method.
+  Pooled statistic: “standard”  (pool.robust=FALSE)
+  Method to robustify pooled statistic:  “scaled.shifted”
+
+ chisq.scaled     df.scaled pvalue.scaled    cfi.scaled    tli.scaled  rmsea.scaled          srmr 
+    21558.274       939.000         0.000         0.856         0.849         0.055         0.055 

@@ -1,0 +1,6 @@
+"Factor","Determinacy","Min_Correlation","Hancock_H","P_Misclass_Median","Use_Factor_Scores","Recommended_Use"
+"Internalizing",0.981,0.924,0.961,0.063,"YES - Highly Recommended","Individual assessment, group comparisons, regression"
+"Anatagonistic",0.946,0.79,0.882,0.105,"YES - Acceptable","Individual assessment, group comparisons, regression"
+"Detachment",0.966,0.868,0.927,0.083,"YES - Highly Recommended","Individual assessment, group comparisons, regression"
+"Disinhibited_Externalizing",0.948,0.796,0.892,0.103,"YES - Acceptable","Individual assessment, group comparisons, regression"
+"Somaticizing",0.832,0.386,0.663,0.187,"CAUTION - Use with limitations noted","Group comparisons, correlation/regression"
